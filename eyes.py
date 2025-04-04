@@ -1,0 +1,1 @@
+# Captures screenshots/desktop context  
