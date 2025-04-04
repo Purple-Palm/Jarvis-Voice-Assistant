@@ -15,4 +15,6 @@ generator = pipeline(text, voice='bm_george')
 for i, (gs, ps, audio) in enumerate(generator):
     print(i, gs, ps)
     display(Audio(data=audio, rate=24000, autoplay=i==0))
+    sd.play(audio, samplerate=24000)
+    sd.wait()
     sf.write(f'{i}.wav', audio, 24000) 
