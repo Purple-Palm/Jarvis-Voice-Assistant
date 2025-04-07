@@ -24,9 +24,3 @@ if __name__ == '__main__':
     test_text = "Hello, this is a test."
     text_to_speech(test_text) 
 
-
-
-
-
-
-
